@@ -1,0 +1,25 @@
+STL 
+C++은 STL( StandardTemplate Library)을 제공하며 이는 자료구조, 함수 등을 제공하는 라이브러리를 뜻합니다. 
+알고리즘, 컨테이너, 이터레이터, 펑터 이렇게 4가지를 제공합니다. 
+
+우리가 C++로 vector라는 자료구조를 쓴다던가 sort()함수를 쓸 수 있는 것은 다 STL 덕분입니다. 
+C++의 장점 중의 하나죠. 
+
+1. 알고리즘
+: 정렬, 탐색 등에 관한 함수로 이루어져 있습니다. sort()가 대표적입니다.  
+
+2. 컨테이너 
+: 컨테이너는 여러가지 의미로 쓰입니다. 클라우드 서비스의 컨테이너도 있고 물건을 많이 담을 
+수 있는 컨테이너 박스라는 의미도 있죠. 여기서의 컨테이너는 C++에서 제공하는 자료구조를 의미합니다. 
+  
+    시퀀스 컨테이너, 연관 컨테이너, 정렬되지 않은 연관 컨테이너, 컨테이너 어댑터가 있습니다.  
+    - 시퀀스 컨테이너(sequence container)는 데이터를 단순히 저장해 놓는 자료구조를 뜻하며 array, vector, deque, forward_list, list 가 있습니다.   
+
+    - 연관 컨테이너(associative container)는 자료가 저장됨에 따라 자동정렬되는 자료구조를 말합니다. 중복키가 가능한 것은 이름에 multi가 붙습니다. 
+    set, map, multiset, multimap이 있습니다.   
+
+    - 정렬되지 않은 연관 컨테이너(unordered associative container)는 자료가 저장됨에 따라 자동정렬이 되지 않는 자료구조를 말합니다. 
+    unordered_set, unordered_map, unordered_multiset, unordered_multimap이 있습니다.   
+
+    - 컨테이너 어댑터(container adapter) 는 시퀀스 컨테이너를 이용해 만든 자료구조를 뜻하며 
+    stack, queue는 deque로 만들어져 있으며 priority_queue는 vector을 이용해 힙 자료구조로 만듭니다. 
