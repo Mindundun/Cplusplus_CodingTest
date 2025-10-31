@@ -3,6 +3,7 @@ using namespace std;
 
 int i;
 int main() {
+    // &연산자를 통해 변수의 메모리 주소를 얻을 수 있음.
     cout << &i << "\n";
 
     i = 0;
