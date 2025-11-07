@@ -1,6 +1,7 @@
 #include<bits/stdc++.h>
 using namespace std;
 
+
 int a[3] = {1, 2, 3};
 int a2[] = {1, 2, 3, 4};
 int a3[10];
